@@ -1,0 +1,44 @@
+@import "fonts";
+@import "var";
+@import "reset";
+@import "header";
+@import "main-book";
+
+body {
+	font-family: Inter;
+	font-size: 19px;
+	color: $main-grey;
+}
+
+[class*="__container"] {
+	max-width: 1440px;
+	margin: 0px auto;
+	width: 100%;
+	padding: 0 15px;
+}
+
+.logo {
+display: block;	
+
+}
+
+.flex {
+	display: flex;
+}
+
+.button-order-today {
+	display: block;
+	text-decoration: none;
+	box-sizing: border-box;
+	background: #FFCA42;
+	border: 2px solid #FFCA42;
+	color: $main-blue;
+	padding: 18px 52px;
+	font-family: 'Cardo';
+	font-size: 19px;
+	line-height: 28px;
+	letter-spacing: 0.57px;
+	margin-left: 51px;
+
+}
+

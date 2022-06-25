@@ -1,0 +1,47 @@
+.main-book {
+    background-color: $main-blue;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+
+    &__text {
+    display: flex;
+    flex-direction: column;
+        
+    &-welcome {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+    
+            
+        }
+
+        &-subtitle {
+            display: block;
+            Font-family: Cardo;
+            Font-size: 21px;
+            Line-height: 36px;
+            Letter-spacing: 1.2px;
+            color: #fff;
+        }
+
+    }
+
+    
+    
+
+}
+
+.line {
+    height: 2px;
+    width: 35px;
+    background: #FFCA42;
+    margin-right: 14px;
+    
+
+}
+
+.big-book-cover {
+  
+    
+}
