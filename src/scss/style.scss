@@ -17,14 +17,6 @@ body {
 	padding: 0 15px;
 }
 
-[class*="__content-container"] {
-	max-width: 1300px;
-	display: flex;
-	margin: 0px auto;
-	width: 100%;
-	padding: 0 15px;
-}
-
 .logo {
 display: block;	
 
@@ -36,7 +28,6 @@ display: block;
 
 .button-order-today {
 	display: block;
-	max-width: 222px;
 	text-decoration: none;
 	box-sizing: border-box;
 	background: #FFCA42;
@@ -47,9 +38,7 @@ display: block;
 	font-size: 19px;
 	line-height: 28px;
 	letter-spacing: 0.57px;
-	
-	&-left {
-		margin-left: 50px;
-	}
+	margin-left: 51px;
+
 }
 
