@@ -143,6 +143,7 @@ select {
 }
 .main-book__text-welcome {
   display: flex;
+  align-items: center;
 }
 .main-book__text-subtitle {
   display: block;
