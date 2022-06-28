@@ -17,6 +17,14 @@ body {
 	padding: 0 15px;
 }
 
+[class*="__content-container"] {
+	max-width: 1300px;
+	margin: 0px auto;
+	width: 100%;
+	padding: 0 15px;
+	display: flex;
+}
+
 .logo {
 display: block;	
 
