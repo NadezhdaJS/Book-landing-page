@@ -179,13 +179,6 @@ select {
   border-bottom: 1px solid #fff;
   padding-bottom: 3px;
 }
-.line {
-  height: 2px;
-  width: 35px;
-  background: #FFCA42;
-  margin-right: 14px;
-}
-
 .big-book-cover {
   margin-top: 100px;
 }
@@ -219,6 +212,10 @@ h1 {
   content: "●";
   color: #FFCA42;
 }
+.stats-item-blue {
+  color: #1B3764;
+  margin-top: 14px;
+}
 
 .numbers-of-stats-item {
   display: inline-block;
@@ -231,10 +228,59 @@ h1 {
   margin-left: 57px;
 }
 
+.authors-book {
+  display: flex;
+  flex-direction: column;
+}
+.authors-book__title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.authors-book__h2 {
+  margin: 0 auto;
+  font-size: 42px;
+  line-height: 50px;
+  padding-top: 126px;
+}
+
+.book-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 150px;
+}
+
+.book-card {
+  display: flex;
+}
+.book-card__text {
+  max-width: 287px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.book-card__subtitle {
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.32px;
+}
+.book-card__price {
+  color: #FFCA42;
+  font-size: 21px;
+  line-height: 33px;
+  margin-top: 10px;
+}
+.book-card__description {
+  line-height: 28px;
+  margin-top: 18px;
+}
+
 body {
   font-family: Inter;
   font-size: 19px;
   color: #969AA0;
+  font-weight: 400;
 }
 
 [class*=__container] {
@@ -260,6 +306,11 @@ body {
   display: flex;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .button-order-today {
   display: block;
   text-decoration: none;
@@ -273,4 +324,34 @@ body {
   line-height: 28px;
   letter-spacing: 0.57px;
   margin-left: 51px;
+}
+.button-order-today--white {
+  background: none;
+  margin-left: 0;
+  margin-top: 29px;
+  padding: 19px 51px;
+  letter-spacing: 0.38px;
+  max-width: 206px;
+}
+
+.line {
+  height: 2px;
+  width: 35px;
+  background: #FFCA42;
+  margin-right: 14px;
+}
+.line-bold {
+  height: 3px;
+  width: 50px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+
+h2, h3 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #1B3764;
 }

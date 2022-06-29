@@ -1,0 +1,57 @@
+.authors-book {
+
+    display: flex;
+    flex-direction: column;
+    
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    &__h2 {
+        margin: 0 auto;
+        font-size: 42px;
+        line-height: 50px;
+        padding-top: 126px;
+       
+    }
+}
+
+.book-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 150px;
+}
+
+.book-card {
+    display: flex;
+   
+    &__text {
+        max-width: 287px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    &__subtitle {
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: 0.32px;
+    }
+
+    &__price {
+        color: $golden;
+        font-size: 21px;
+        line-height: 33px;
+        margin-top: 10px;
+    }
+
+    &__description {
+        line-height: 28px;
+        margin-top: 18px;
+    }
+}

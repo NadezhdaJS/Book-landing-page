@@ -59,15 +59,6 @@
     }
 }
 
-.line {
-    height: 2px;
-    width: 35px;
-    background: #FFCA42;
-    margin-right: 14px;
-    
-
-}
-
 .big-book-cover {
   margin-top: 100px;
     
@@ -101,8 +92,13 @@ h1 {
 
     &::before {
         content: '\25CF';
-        color: #FFCA42;
+        color: $golden;
 
+    }
+
+    &-blue {
+        color: $main-blue;
+        margin-top: 14px;
     }
 
 }

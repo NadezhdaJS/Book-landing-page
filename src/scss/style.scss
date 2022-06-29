@@ -3,11 +3,13 @@
 @import "reset";
 @import "header";
 @import "main-book";
+@import "authors-book";
 
 body {
 	font-family: Inter;
 	font-size: 19px;
 	color: $main-grey;
+	font-weight: 400;
 }
 
 [class*="__container"] {
@@ -34,12 +36,17 @@ display: block;
 	display: flex;
 }
 
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
 .button-order-today {
 	display: block;
 	text-decoration: none;
 	box-sizing: border-box;
-	background: #FFCA42;
-	border: 2px solid #FFCA42;
+	background: $golden;
+	border: 2px solid $golden;
 	color: $main-blue;
 	padding: 18px 52px;
 	font-family: 'Cardo';
@@ -48,5 +55,37 @@ display: block;
 	letter-spacing: 0.57px;
 	margin-left: 51px;
 
+	&--white {
+		background: none;
+		margin-left: 0;
+		margin-top: 29px;
+		padding: 19px 51px;
+		letter-spacing: 0.38px;
+		max-width: 206px;
+	}
+
 }
 
+.line {
+    height: 2px;
+    width: 35px;
+    background:$golden;
+    margin-right: 14px;
+    
+	&-bold {
+		height: 3px;
+		width: 50px;
+		margin: 0 auto;
+		margin-top: 25px;
+		margin-bottom: 70px;
+	}
+
+}
+
+h2, h3 {
+	font-family: 'Cardo';
+	font-style: normal;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: $main-blue;
+}
