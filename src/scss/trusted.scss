@@ -3,5 +3,39 @@
 
     &__title {
         margin: 0 auto;
+        margin-top: 110px;
+    }
+
+    &__companies {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 130px;
+    }
+}
+
+.company-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 313px;
+    align-items: center;
+    
+
+    &__logo {
+
+    }
+
+    &__name {
+        color: $main-blue;
+        font-family: 'Cardo';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__desc {
+        font-size: 19px;
+        line-height: 28px;
+        text-align: center;
     }
 }
