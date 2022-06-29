@@ -1,0 +1,90 @@
+.about-the-author {
+    background-color: #F5F8FC;
+    height: 960px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+    &__photo {
+        display: flex;
+        margin-right: 150px;
+        
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    &__text {
+        max-width: 559px;
+        line-height: 34px;
+    }
+
+    &__data{   
+        display: flex;
+        justify-content: space-between;
+        margin-top: 39px;
+    }
+
+    &__category {
+        
+    }
+
+    &__number {
+        color: $main-blue;
+        font-family: 'Cardo';
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 77px;
+    }
+
+    &__text-number {
+        font-size: 17px;
+        line-height: 22px;
+    }
+}
+
+.qr {
+    background-color: $main-blue;
+    width: 484px;
+    height: 161px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+
+    &__code {
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__name {
+        color: $golden;
+        font-family: 'Cardo';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 12px;
+    }
+
+    &__contact {
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.19px;
+        color: #B4C7E7;
+        margin-top: 5px;
+    }
+}

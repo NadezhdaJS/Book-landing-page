@@ -4,6 +4,7 @@
 @import "header";
 @import "main-book";
 @import "authors-book";
+@import "about-the-author";
 
 body {
 	font-family: Inter;
@@ -21,6 +22,14 @@ body {
 
 [class*="__content-container"] {
 	max-width: 1300px;
+	margin: 0px auto;
+	width: 100%;
+	padding: 0 15px;
+	display: flex;
+}
+
+[class*="__big-content-container"] {
+	max-width: 1330px;
 	margin: 0px auto;
 	width: 100%;
 	padding: 0 15px;
@@ -80,6 +89,13 @@ display: block;
 		margin-bottom: 70px;
 	}
 
+	&-author {
+		height: 3px;
+		width: 50px;
+		margin-top: 30px;
+		margin-bottom: 36px;
+	}
+
 }
 
 h2, h3 {
@@ -88,4 +104,10 @@ h2, h3 {
 	font-weight: 400;
 	text-transform: capitalize;
 	color: $main-blue;
+}
+
+.vertical-line {
+	width: 1px;
+	height: 98px;
+	background: $golden;
 }
