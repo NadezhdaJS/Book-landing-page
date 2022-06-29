@@ -1,5 +1,27 @@
 .get-book {
-    
+    background-color: $main-blue;
+    height: 534px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__title {
+        color: #fff;
+        font-size: 45px;
+        line-height: 54px;
+    }
+
+    &__desc {
+        max-width: 520px;
+        margin-right: 201px;
+        margin-top: 30px;
+    }
 }
 
 

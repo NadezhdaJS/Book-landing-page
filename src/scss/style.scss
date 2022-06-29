@@ -75,6 +75,15 @@ display: block;
 		max-width: 206px;
 	}
 
+	&-blue {
+		background: none;
+		color: #fff;
+		text-transform: capitalize;
+		margin-top: 28px;
+		max-width: 220px;
+		margin-left: 0;
+	}
+
 }
 
 .line {
@@ -96,6 +105,12 @@ display: block;
 		width: 50px;
 		margin-top: 30px;
 		margin-bottom: 36px;
+	}
+
+	&-get {
+		height: 3px;
+		width: 50px;
+		margin-top: 24px;
 	}
 
 }
