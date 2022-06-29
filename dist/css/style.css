@@ -350,6 +350,10 @@ h1 {
   margin-top: 5px;
 }
 
+.trusted__title {
+  margin: 0 auto;
+}
+
 body {
   font-family: Inter;
   font-size: 19px;
