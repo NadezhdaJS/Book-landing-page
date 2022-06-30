@@ -1,0 +1,49 @@
+.chapters {
+    background-color: #F4F8FF;
+    height: 1154px;
+    display: flex;
+    align-items: center;
+   
+    &__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__card {
+        max-width: 533px;
+        padding: 40px;
+        background-color: #fff;
+        
+        &-mr {
+            margin-right: 30px;
+        }
+
+        &-mb {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__title {
+        color: $main-blue;
+        font-family: 'Cardo';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__text {
+        line-height: 32px;
+        margin-top: 23px;
+    }
+
+    &__stats {
+        margin-top: 15px;
+    }
+
+    &__time {
+        font-size: 17px;
+        line-height: 27px;
+        margin-right: 45px;
+    }
+}

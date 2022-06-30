@@ -193,30 +193,6 @@ h1 {
   font-weight: normal;
 }
 
-.stats {
-  list-style-type: disc;
-}
-
-.stats-item {
-  display: inline-block;
-  padding-right: 60px;
-  font-family: "Cardo";
-  font-style: normal;
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: 0.48px;
-  color: #FFFFFF;
-  list-style-type: disc;
-}
-.stats-item::before {
-  content: "●";
-  color: #FFCA42;
-}
-.stats-item-blue {
-  color: #1B3764;
-  margin-top: 14px;
-}
-
 .numbers-of-stats-item {
   display: inline-block;
   margin-right: 40px;
@@ -405,6 +381,7 @@ h1 {
 .learn {
   display: flex;
   height: 1095px;
+  justify-content: center;
 }
 .learn__box {
   display: flex;
@@ -413,6 +390,7 @@ h1 {
   display: flex;
   flex-direction: column;
   max-width: 636px;
+  margin-right: 59px;
 }
 .learn__card {
   max-width: 303px;
@@ -438,6 +416,48 @@ h1 {
   background: #FFCA42;
   text-align: center;
   padding: 8px;
+}
+
+.chapters {
+  background-color: #F4F8FF;
+  height: 1154px;
+  display: flex;
+  align-items: center;
+}
+.chapters__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chapters__card {
+  max-width: 533px;
+  padding: 40px;
+  background-color: #fff;
+}
+.chapters__card-mr {
+  margin-right: 30px;
+}
+.chapters__card-mb {
+  margin-bottom: 40px;
+}
+.chapters__title {
+  color: #1B3764;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.chapters__text {
+  line-height: 32px;
+  margin-top: 23px;
+}
+.chapters__stats {
+  margin-top: 15px;
+}
+.chapters__time {
+  font-size: 17px;
+  line-height: 27px;
+  margin-right: 45px;
 }
 
 body {
@@ -513,6 +533,13 @@ body {
   max-width: 220px;
   margin-left: 0;
 }
+.button-order-today-trial {
+  max-width: 429px;
+  padding: 23px 92px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 37px;
+}
 
 .line {
   height: 2px;
@@ -557,8 +584,52 @@ h2, h3 {
   margin: 0 auto;
   margin-top: 110px;
 }
+.main-title-chapters {
+  margin-top: 0;
+}
 
 .flex-row {
   display: flex;
   flex-direction: row;
+}
+
+.stats {
+  list-style-type: disc;
+}
+
+.stats-item {
+  display: inline-block;
+  padding-right: 60px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.48px;
+  color: #FFFFFF;
+  list-style-type: disc;
+}
+.stats-item::before {
+  content: "●";
+  color: #FFCA42;
+}
+.stats-item-blue {
+  color: #1B3764;
+  margin-top: 14px;
+}
+.stats-item-chapters {
+  color: #1B3764;
+  padding-right: 5px;
+  font-size: 22px;
+  line-height: 31px;
+}
+.stats-item-chapters::before {
+  padding-right: 6px;
+}
+
+span.blue {
+  color: #1B3764;
+}
+
+p {
+  margin: 0 auto;
 }

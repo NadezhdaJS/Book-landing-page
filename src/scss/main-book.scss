@@ -75,34 +75,6 @@ h1 {
 
 }
 
-.stats {
-    list-style-type: disc;
-}
-
-.stats-item {
-    display: inline-block;
-    padding-right: 60px;
-    font-family: 'Cardo';
-    font-style: normal;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.48px;
-    color: #FFFFFF;
-    list-style-type: disc;
-
-    &::before {
-        content: '\25CF';
-        color: $golden;
-
-    }
-
-    &-blue {
-        color: $main-blue;
-        margin-top: 14px;
-    }
-
-}
-
 .numbers-of-stats {
 
     &-item {

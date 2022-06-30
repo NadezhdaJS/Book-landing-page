@@ -8,6 +8,7 @@
 @import "trusted";
 @import "get-book";
 @import "learn";
+@import "chapters";
 
 body {
 	font-family: Inter;
@@ -85,6 +86,15 @@ display: block;
 		margin-left: 0;
 	}
 
+	&-trial {
+		max-width: 429px;
+		padding: 23px 92px;
+		margin: 0 auto;
+		margin-top: 60px;
+		margin-bottom: 37px;
+
+	}
+
 }
 
 .line {
@@ -133,9 +143,60 @@ h2, h3 {
 .main-title {
 	margin: 0 auto;
 	margin-top: 110px;
+
+	&-chapters {
+		margin-top: 0;
+	}
 }
 
 .flex-row {
 	display: flex;
 	flex-direction: row;
+}
+
+.stats {
+    list-style-type: disc;
+}
+
+
+.stats-item {
+    display: inline-block;
+    padding-right: 60px;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.48px;
+    color: #FFFFFF;
+    list-style-type: disc;
+
+    &::before {
+        content: '\25CF';
+        color: $golden;
+
+    }
+
+    &-blue {
+        color: $main-blue;
+        margin-top: 14px;
+    }
+
+	&-chapters {
+		color: $main-blue;
+		padding-right: 5px;
+		font-size: 22px;
+		line-height: 31px;
+
+		&::before {
+			padding-right: 6px;
+		}
+	}
+
+}
+
+span.blue {
+	color: $main-blue;
+}
+p {
+	margin: 0 auto;
 }
