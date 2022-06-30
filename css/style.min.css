@@ -351,10 +351,6 @@ h1 {
   margin-top: 5px;
 }
 
-.trusted__title {
-  margin: 0 auto;
-  margin-top: 110px;
-}
 .trusted__companies {
   display: flex;
   flex-direction: row;
@@ -408,6 +404,40 @@ h1 {
 
 .learn {
   display: flex;
+  height: 1095px;
+}
+.learn__box {
+  display: flex;
+}
+.learn__cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 636px;
+}
+.learn__card {
+  max-width: 303px;
+  background-color: #F4F8FF;
+  max-height: 272px;
+  padding: 30px;
+  margin: 30px 30px 30px 0;
+  color: #1B3764;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+.learn__text {
+  margin-top: 30px;
+}
+
+.number-circle {
+  font-size: 23px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #FFCA42;
+  text-align: center;
+  padding: 8px;
 }
 
 body {
@@ -521,4 +551,14 @@ h2, h3 {
   width: 1px;
   height: 98px;
   background: #FFCA42;
+}
+
+.main-title {
+  margin: 0 auto;
+  margin-top: 110px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
