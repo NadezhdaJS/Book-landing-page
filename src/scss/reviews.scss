@@ -1,0 +1,19 @@
+.reviews {
+    display: flex;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        max-width: 435px;
+    }
+
+    &__title {
+        font-size: 42px;
+        line-height: 50px;
+        max-width: 329px;
+    }
+
+    &__rating {
+        
+    }
+}
