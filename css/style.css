@@ -460,6 +460,19 @@ h1 {
   margin-right: 45px;
 }
 
+.reviews {
+  display: flex;
+}
+.reviews__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 435px;
+}
+.reviews__title {
+  font-size: 42px;
+  line-height: 50px;
+  max-width: 329px;
+}
 body {
   font-family: Inter;
   font-size: 19px;
@@ -563,6 +576,11 @@ body {
   height: 3px;
   width: 50px;
   margin-top: 24px;
+}
+.line-reviews {
+  height: 3px;
+  width: 50px;
+  margin-top: 26px;
 }
 
 h2, h3 {
