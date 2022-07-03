@@ -1,5 +1,7 @@
 .reviews {
     display: flex;
+    height: 884px;
+    align-items: center;
 
     &__text {
         display: flex;
@@ -13,7 +15,85 @@
         max-width: 329px;
     }
 
+    &__description {
+        margin-top: 33px;
+    }
+
     &__rating {
+        display: flex;
+        margin-top: 15px;
+    }
+
+    &__rounds {
+        margin-right: 10px;
+
+    }
+
+    &__score {
+
+    }
+
+    &__overall {
+        font-size: 18px;
+        line-height: 28px;
+        color: $main-blue;
+        margin-top: 15px;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    &__review-card {
+        width: 381px;
+        height: 292px;
+        background-color: $main-blue;
+        padding: 30px 56px 24px 35px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        color: #fff;
+        margin: 20px 20px 0 0;
+    }
+
+    &__profile {
+        display: flex;
+    }
+
+    &__image {
         
+
+    }
+
+    &__profile-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+
+    }
+
+    &__name {
+        font-family: 'Cardo';
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__small-rating {
+        margin-top: 15px;
+    }
+
+    &__subheading {
+        font-family: 'Cardo';
+        font-size: 22px;
+        line-height: 33px;
+        margin: 40px 0 0;
+    }
+
+    &__body {
+        font-size: 18px;
+        line-height: 29px;
+        color: #B4C7E7;
     }
 }
