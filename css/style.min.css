@@ -462,6 +462,8 @@ h1 {
 
 .reviews {
   display: flex;
+  height: 884px;
+  align-items: center;
 }
 .reviews__text {
   display: flex;
@@ -473,6 +475,66 @@ h1 {
   line-height: 50px;
   max-width: 329px;
 }
+.reviews__description {
+  margin-top: 33px;
+}
+.reviews__rating {
+  display: flex;
+  margin-top: 15px;
+}
+.reviews__rounds {
+  margin-right: 10px;
+}
+.reviews__overall {
+  font-size: 18px;
+  line-height: 28px;
+  color: #1B3764;
+  margin-top: 15px;
+}
+.reviews__cards {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.reviews__review-card {
+  width: 381px;
+  height: 292px;
+  background-color: #1B3764;
+  padding: 30px 56px 24px 35px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  color: #fff;
+  margin: 20px 20px 0 0;
+}
+.reviews__profile {
+  display: flex;
+}
+.reviews__profile-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.reviews__name {
+  font-family: "Cardo";
+  font-size: 24px;
+  line-height: 29px;
+}
+.reviews__small-rating {
+  margin-top: 15px;
+}
+.reviews__subheading {
+  font-family: "Cardo";
+  font-size: 22px;
+  line-height: 33px;
+  margin: 40px 0 0;
+}
+.reviews__body {
+  font-size: 18px;
+  line-height: 29px;
+  color: #B4C7E7;
+}
+
 body {
   font-family: Inter;
   font-size: 19px;
@@ -508,6 +570,12 @@ body {
 
 .flex {
   display: flex;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .flex-column {
