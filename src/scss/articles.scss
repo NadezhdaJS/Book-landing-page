@@ -45,6 +45,10 @@
         & a {
             text-decoration: none;
             color: $main-blue;
+
+            &:hover {
+                color: #021029;
+            }
             
         }
     }
@@ -71,6 +75,10 @@
             line-height: 23px;
             letter-spacing: 0.38px;
             border-bottom: 2px solid #1B3764;
+
+            &:hover {
+                color: #021029;
+            }
         }
     }
 

@@ -35,7 +35,6 @@
     }
 
     &__category {
-        
     }
 
     &__number {
@@ -44,6 +43,11 @@
         font-weight: 400;
         font-size: 54px;
         line-height: 77px;
+
+        &:hover {
+            font-size: 62px;
+            transition: 0.3s;
+        }
     }
 
     &__text-number {

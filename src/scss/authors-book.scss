@@ -42,6 +42,15 @@
         font-size: 32px;
         line-height: 38px;
         letter-spacing: 0.32px;
+
+        & a {
+            text-decoration: none;
+            color: $main-blue;
+
+            &:hover {
+                color: #021029;
+            }
+        }
     }
 
     &__price {

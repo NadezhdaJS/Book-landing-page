@@ -24,7 +24,7 @@ body {
 [class*="__container"] {
 	max-width: 1440px;
 	margin: 0px auto;
-	width: 100%;
+	//width: 100%;
 	padding: 0 15px;
 }
 
@@ -78,6 +78,10 @@ display: block;
 	letter-spacing: 0.57px;
 	margin-left: 51px;
 
+	 &:hover {
+		background: rgb(250, 182, 34);
+	 }
+
 	&-white {
 		background: none;
 		margin-left: 0;
@@ -94,6 +98,10 @@ display: block;
 		margin-top: 28px;
 		max-width: 220px;
 		margin-left: 0;
+
+		&:hover {
+			color: $main-blue;
+		 }
 	}
 
 	&-trial {
@@ -151,7 +159,7 @@ display: block;
 	}
 }
 
-h2, h3 {
+h2, h3, h4, h5, h6 {
 	font-family: 'Cardo';
 	font-style: normal;
 	font-weight: 400;
