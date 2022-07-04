@@ -145,6 +145,10 @@ display: block;
 		margin: 0 auto;
 		margin-top: 26px;
 	}
+
+	&-blue {
+		background: $main-blue;
+	}
 }
 
 h2, h3 {
