@@ -3,7 +3,6 @@
     background-color: $color-primary;
     width: 100%;
     align-items: center;
-    flex-direction: row;
     padding: 20px 0;
     
     
@@ -36,7 +35,7 @@
         display: flex;
             flex-direction: row;
             align-items: center;
-            margin-left: 260px;
+            margin-left: 225px;
         &-list {
             display: flex;
             flex-direction: row;

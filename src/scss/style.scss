@@ -34,9 +34,14 @@ body {
 
 .wrapper {
 	max-width: 1300px;
-	margin: 0px auto;
+	margin: 0 auto;
 	padding: 0 15px;
 	display: flex;
+
+	&__header {
+		max-width: 1360px;
+	}
+	
 }
 
 [class*="__big-content-container"] {
