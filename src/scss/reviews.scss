@@ -10,8 +10,8 @@
     }
 
     &__title {
-        font-size: 42px;
-        line-height: 50px;
+        font-size: 4.2rem;
+        line-height: 5rem;
         max-width: 329px;
     }
 
@@ -34,8 +34,8 @@
     }
 
     &__overall {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
         color: $main-blue;
         margin-top: 15px;
     }
@@ -76,8 +76,8 @@
 
     &__name {
         font-family: 'Cardo';
-        font-size: 24px;
-        line-height: 29px;
+        font-size: 2.4rem;
+        line-height: 2.9rem;
     }
 
     &__small-rating {
@@ -86,14 +86,14 @@
 
     &__subheading {
         font-family: 'Cardo';
-        font-size: 22px;
-        line-height: 33px;
+        font-size: 2.2rem;
+        line-height: 3.3rem;
         margin: 40px 0 0;
     }
 
     &__body {
-        font-size: 18px;
-        line-height: 29px;
+        font-size: 1.8rem;
+        line-height: 2.9rem;
         color: #B4C7E7;
     }
 }

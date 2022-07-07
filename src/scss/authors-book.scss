@@ -39,9 +39,9 @@
     }
 
     &__subtitle {
-        font-size: 32px;
-        line-height: 38px;
-        letter-spacing: 0.32px;
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+        letter-spacing: 0.032rem;
 
         & a {
             text-decoration: none;
@@ -55,13 +55,13 @@
 
     &__price {
         color: $golden;
-        font-size: 21px;
-        line-height: 33px;
+        font-size: 2.1rem;
+        line-height: 3.3rem;
         margin-top: 10px;
     }
 
     &__description {
-        line-height: 28px;
+        line-height: 2.8rem;
         margin-top: 18px;
     }
 }
