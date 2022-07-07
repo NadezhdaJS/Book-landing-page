@@ -38,7 +38,7 @@
     }
 
     &__number {
-        color: $main-blue;
+        color: $color-primary;
         font-family: 'Cardo';
         font-weight: 400;
         font-size: 5.4rem;
@@ -57,7 +57,7 @@
 }
 
 .qr {
-    background-color: $main-blue;
+    background-color: $color-primary;
     width: 484px;
     height: 161px;
     margin-top: 55px;
@@ -75,7 +75,7 @@
     }
 
     &__name {
-        color: $golden;
+        color: $color-secondary;
         font-family: 'Cardo';
         font-weight: 400;
         font-size: 2.2rem;
@@ -89,7 +89,7 @@
         font-size: 1.8rem;
         line-height: 2.8rem;
         letter-spacing: 0.02rem;
-        color: #B4C7E7;
+        color: $color-tertiary;
         margin-top: 5px;
     }
 }

@@ -1,5 +1,5 @@
 .main-book {
-    background-color: $main-blue;
+    background-color: $color-primary;
     height: 1000px;
     display: flex;
     padding-bottom: 100px;
@@ -27,7 +27,7 @@
     &__credo {
         font-size: 1.8rem;
         line-height: 2.8rem;
-        color: #B4C7E7;
+        color: $color-tertiary;
         margin-top: 35px;
         margin-bottom: 40px;
     }

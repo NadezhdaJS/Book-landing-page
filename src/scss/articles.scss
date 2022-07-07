@@ -1,7 +1,7 @@
 .articles {
     display: flex;
     flex-direction: column;
-    background: #F4F8FF;
+    background: $color-background-light;
     height: 1045px;
     align-items: center;
     justify-content: center;
@@ -44,7 +44,7 @@
 
         & a {
             text-decoration: none;
-            color: $main-blue;
+            color: $color-primary;
 
             &:hover {
                 color: #021029;
@@ -68,7 +68,7 @@
 
         & a {
             text-decoration: none;
-            color: $main-blue;
+            color: $color-primary;
             font-family: 'Cardo';
             font-weight: 400;
             font-size: 1.9rem;
@@ -85,7 +85,7 @@
     &__date {
         font-size: 1.6rem;
         line-height: 2.6rem;
-        color: $main-blue;
+        color: $color-primary;
         padding-top: 5px;
 
     }

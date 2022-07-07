@@ -36,7 +36,7 @@
     &__overall {
         font-size: 1.8rem;
         line-height: 2.8rem;
-        color: $main-blue;
+        color: $color-primary;
         margin-top: 15px;
     }
 
@@ -49,7 +49,7 @@
     &__review-card {
         width: 381px;
         height: 292px;
-        background-color: $main-blue;
+        background-color: $color-primary;
         padding: 30px 56px 24px 35px;
         display: flex;
         flex-direction: column;
@@ -94,6 +94,6 @@
     &__body {
         font-size: 1.8rem;
         line-height: 2.9rem;
-        color: #B4C7E7;
+        color: $color-tertiary;
     }
 }

@@ -21,7 +21,7 @@ html {
 body {
 	font-family: Inter;
 	font-size: 1.9rem;
-	color: $main-grey;
+	color: $color-text;
 	font-weight: 400;
 	font-style: normal;
 }
@@ -73,9 +73,9 @@ display: block;
 	display: block;
 	text-decoration: none;
 	box-sizing: border-box;
-	background: $golden;
-	border: 2px solid $golden;
-	color: $main-blue;
+	background: $color-secondary;
+	border: 2px solid $color-secondary;
+	color: $color-primary;
 	padding: 18px 52px;
 	font-family: 'Cardo';
 	font-size: 1.9rem;
@@ -105,7 +105,7 @@ display: block;
 		margin-left: 0;
 
 		&:hover {
-			color: $main-blue;
+			color: $color-primary;
 		 }
 	}
 
@@ -123,7 +123,7 @@ display: block;
 .line {
     height: 2px;
     width: 35px;
-    background:$golden;
+    background:$color-secondary;
     margin-right: 14px;
     
 	&-bold {
@@ -154,13 +154,13 @@ display: block;
 	}
 
 	&-articles {
-		background: $golden;
+		background: $color-secondary;
 		margin: 0 auto;
 		margin-top: 26px;
 	}
 
 	&-blue {
-		background: $main-blue;
+		background: $color-primary;
 	}
 }
 
@@ -169,13 +169,13 @@ h2, h3, h4, h5, h6 {
 	font-style: normal;
 	font-weight: 400;
 	text-transform: capitalize;
-	color: $main-blue;
+	color: $color-primary;
 }
 
 .vertical-line {
 	width: 1px;
 	height: 98px;
-	background: $golden;
+	background: $color-secondary;
 }
 
 .main-title {
@@ -210,17 +210,17 @@ h2, h3, h4, h5, h6 {
 
     &::before {
         content: '\25CF';
-        color: $golden;
+        color: $color-secondary;
 
     }
 
     &-blue {
-        color: $main-blue;
+        color: $color-primary;
         margin-top: 14px;
     }
 
 	&-chapters {
-		color: $main-blue;
+		color: $color-primary;
 		padding-right: 5px;
 		font-size: 2.2rem;
 		line-height: 3.1rem;
@@ -233,7 +233,7 @@ h2, h3, h4, h5, h6 {
 }
 
 span.blue {
-	color: $main-blue;
+	color: $color-primary;
 }
 p {
 	margin: 0 auto;

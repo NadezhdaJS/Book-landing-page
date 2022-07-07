@@ -45,7 +45,7 @@
 
         & a {
             text-decoration: none;
-            color: $main-blue;
+            color: $color-primary;
 
             &:hover {
                 color: #021029;
@@ -54,7 +54,7 @@
     }
 
     &__price {
-        color: $golden;
+        color: $color-secondary;
         font-size: 2.1rem;
         line-height: 3.3rem;
         margin-top: 10px;

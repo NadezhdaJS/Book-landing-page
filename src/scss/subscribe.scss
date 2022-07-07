@@ -6,7 +6,7 @@
     
     
     &__body {
-        background-color: $golden;
+        background-color: $color-secondary;
         height: 489px;
         display: flex;
         justify-content: center;
@@ -24,7 +24,7 @@
     &__desc {
         font-size: 1.8rem;
         line-height: 2.8rem;
-        color: $main-blue;
+        color: $color-primary;
         max-width: 550px;
         text-align: center;
         margin-top: 28px;
@@ -41,7 +41,7 @@
         width: 328px;
         border: 2px solid #1B3764;
         border-radius: 0px;
-        background-color: $main-blue;
+        background-color: $color-primary;
         color: #FFFFFF;
         font-size: 1.8rem;
         line-height: 3.1rem;
@@ -64,7 +64,7 @@
         font-size: 1.8rem;
         line-height: 3.1rem;
         letter-spacing: 0.018rem;
-        color: #B4C7E7;
+        color: $color-tertiary;
         margin-right: 16px;
 
     }
