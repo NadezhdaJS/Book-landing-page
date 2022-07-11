@@ -36,7 +36,7 @@
 
     &__name {
         margin-top: 25px;
-        font-family: 'Cardo', serif;
+        @extend %font-second;
         font-weight: 400;
         font-size: 2.4rem;
         line-height: 3.4rem;
@@ -69,7 +69,7 @@
         & a {
             text-decoration: none;
             color: $color-primary;
-            font-family: 'Cardo', serif;
+            @extend %font-second;
             font-weight: 400;
             font-size: 1.9rem;
             line-height: 2.3rem;

@@ -26,7 +26,7 @@
 
     &__title {
         color: $color-primary;
-        font-family: 'Cardo', serif;
+        @extend %font-second;
         font-weight: 400;
         font-size: 2.4rem;
         line-height: 2.9rem;

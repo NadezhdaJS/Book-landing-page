@@ -94,7 +94,7 @@
 
     &__contact-type {
         margin-right: 19px;
-        font-family: 'Cardo', serif;
+        @extend %font-second;
         color: #fff;
         font-size: 1.8rem;
         line-height: 2.7rem;

@@ -75,7 +75,7 @@
     }
 
     &__name {
-        font-family: 'Cardo', serif;
+        @extend %font-second;
         font-size: 2.4rem;
         line-height: 2.9rem;
     }
@@ -85,7 +85,7 @@
     }
 
     &__subheading {
-        font-family: 'Cardo', serif;
+        @extend %font-second;
         font-size: 2.2rem;
         line-height: 3.3rem;
         margin: 40px 0 0;
