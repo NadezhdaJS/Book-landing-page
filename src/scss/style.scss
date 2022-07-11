@@ -80,11 +80,10 @@ display: block;
 	border: 2px solid $color-secondary;
 	color: $color-primary;
 	padding: 18px 52px;
-	font-family: 'Cardo';
+	font-family: 'Cardo', serif;
 	font-size: 1.9rem;
 	line-height: 2.8rem;
 	letter-spacing: 0.57px;
-	margin-left: 51px;
 
 	 &:hover {
 		background: rgb(250, 182, 34);
@@ -168,7 +167,7 @@ display: block;
 }
 
 h2, h3, h4, h5, h6 {
-	font-family: 'Cardo';
+	font-family: 'Cardo', serif;
 	font-style: normal;
 	font-weight: 400;
 	text-transform: capitalize;
@@ -203,7 +202,7 @@ h2, h3, h4, h5, h6 {
 .stats-item {
     display: inline-block;
     padding-right: 60px;
-    font-family: 'Cardo';
+    font-family: 'Cardo', serif;
     font-style: normal;
     font-size: 2.4rem;
     line-height: 2.9rem;
