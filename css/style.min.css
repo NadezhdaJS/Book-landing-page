@@ -136,9 +136,9 @@ select {
 
 .main-book {
   background-color: #1B3764;
-  height: 1000px;
   display: flex;
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 .main-book__text {
   display: flex;
@@ -170,7 +170,7 @@ select {
 }
 .main-book__free-demo-link {
   display: block;
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-size: 1.9rem;
   max-height: 31px;
   line-height: 3rem;
@@ -188,10 +188,6 @@ select {
   font-size: 2rem;
   transition: 0.3s;
 }
-.big-book-cover {
-  margin-top: 100px;
-}
-
 h1 {
   color: #fff;
   font-family: Cardo;
@@ -300,7 +296,7 @@ h1 {
 }
 .about-the-author__number {
   color: #1B3764;
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 5.4rem;
   line-height: 7.7rem;
@@ -332,7 +328,7 @@ h1 {
 }
 .qr__name {
   color: #FFCA42;
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 2.2rem;
   line-height: 2.6rem;
@@ -363,7 +359,7 @@ h1 {
 }
 .company-card__name {
   color: #1B3764;
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 2.9rem;
@@ -420,7 +416,7 @@ h1 {
   padding: 30px;
   margin: 30px 30px 30px 0;
   color: #1B3764;
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 3.4rem;
@@ -467,7 +463,7 @@ h1 {
 }
 .chapters__title {
   color: #1B3764;
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 2.9rem;
@@ -541,7 +537,7 @@ h1 {
   margin: 0 20px;
 }
 .reviews__name {
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-size: 2.4rem;
   line-height: 2.9rem;
 }
@@ -549,7 +545,7 @@ h1 {
   margin-top: 15px;
 }
 .reviews__subheading {
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-size: 2.2rem;
   line-height: 3.3rem;
   margin: 40px 0 0;
@@ -585,7 +581,7 @@ h1 {
 }
 .articles__name {
   margin-top: 25px;
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 3.4rem;
@@ -610,7 +606,7 @@ h1 {
 .articles__readmore a {
   text-decoration: none;
   color: #1B3764;
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 1.9rem;
   line-height: 2.3rem;
@@ -761,7 +757,7 @@ h1 {
 }
 .footer__contact-type {
   margin-right: 19px;
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   color: #fff;
   font-size: 1.8rem;
   line-height: 2.7rem;
@@ -866,11 +862,10 @@ body {
   border: 2px solid #FFCA42;
   color: #1B3764;
   padding: 18px 52px;
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-size: 1.9rem;
   line-height: 2.8rem;
   letter-spacing: 0.57px;
-  margin-left: 51px;
 }
 .button-order-today:hover {
   background: rgb(250, 182, 34);
@@ -941,7 +936,7 @@ body {
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-style: normal;
   font-weight: 400;
   text-transform: capitalize;
@@ -974,7 +969,7 @@ h2, h3, h4, h5, h6 {
 .stats-item {
   display: inline-block;
   padding-right: 60px;
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-style: normal;
   font-size: 2.4rem;
   line-height: 2.9rem;
