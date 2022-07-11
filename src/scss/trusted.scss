@@ -1,12 +1,18 @@
 .trusted { 
 
+    &__line {
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
     
 
     &__companies {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-bottom: 130px;
+        padding-top: 40px;
+        padding-bottom: 130px;
     }
 }
 

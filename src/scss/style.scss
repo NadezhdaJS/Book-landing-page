@@ -124,48 +124,20 @@ display: block;
 }
 
 .line {
-    height: 2px;
-    width: 35px;
-    background:$color-secondary;
-    margin-right: 14px;
-    
-	&-bold {
-		height: 3px;
-		width: 50px;
-		margin: 0 auto;
-		margin-top: 25px;
-		margin-bottom: 70px;
-	}
+	height: 3px;
+	width: 50px;
+	background:$color-secondary;
 
-	&-author {
-		height: 3px;
-		width: 50px;
-		margin-top: 30px;
-		margin-bottom: 36px;
-	}
-
-	&-get {
-		height: 3px;
-		width: 50px;
-		margin-top: 24px;
-	}
-
-	&-reviews {
-		height: 3px;
-		width: 50px;
-		margin-top: 26px;
-	}
-
-	&-articles {
-		background: $color-secondary;
-		margin: 0 auto;
-		margin-top: 26px;
-	}
-
-	&-blue {
+	&_blue {
 		background: $color-primary;
 	}
+
+	&_tiny {
+		height: 2px;
+    	width: 35px;
+	}
 }
+
 
 h2, h3, h4, h5, h6 {
 	@extend %font-second;

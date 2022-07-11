@@ -3,6 +3,12 @@
     height: 1095px;
     justify-content: center;
 
+    &__line {
+        margin: 0 auto;
+        margin-top: 26px;
+        margin-bottom: 70px;
+    }
+
     &__box {
         display: flex;
     }

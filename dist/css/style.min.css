@@ -160,6 +160,9 @@ select {
   letter-spacing: 0.12rem;
   color: #fff;
 }
+.main-book__line {
+  margin-right: 14px;
+}
 .main-book__credo {
   font-size: 1.8rem;
   line-height: 2.8rem;
@@ -225,6 +228,11 @@ h1 {
   line-height: 50px;
   padding-top: 126px;
 }
+.authors-book__line {
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
 
 .book-cards {
   display: flex;
@@ -286,6 +294,10 @@ h1 {
   font-size: 4.2rem;
   line-height: 5rem;
 }
+.about-the-author__line {
+  margin-top: 30px;
+  margin-bottom: 36px;
+}
 .about-the-author__text {
   max-width: 559px;
   line-height: 3.4rem;
@@ -343,11 +355,17 @@ h1 {
   margin-top: 5px;
 }
 
+.trusted__line {
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
 .trusted__companies {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 130px;
+  padding-top: 40px;
+  padding-bottom: 130px;
 }
 
 .company-card {
@@ -387,6 +405,9 @@ h1 {
   font-size: 4.5rem;
   line-height: 5.4rem;
 }
+.get-book__line {
+  margin-top: 24px;
+}
 .get-book__desc {
   max-width: 520px;
   margin-right: 201px;
@@ -397,6 +418,11 @@ h1 {
   display: flex;
   height: 1095px;
   justify-content: center;
+}
+.learn__line {
+  margin: 0 auto;
+  margin-top: 26px;
+  margin-bottom: 70px;
 }
 .learn__box {
   display: flex;
@@ -441,6 +467,11 @@ h1 {
   height: 1154px;
   display: flex;
   align-items: center;
+}
+.chapters__line {
+  margin: 0 auto;
+  margin-top: 26px;
+  margin-bottom: 70px;
 }
 .chapters__box {
   display: flex;
@@ -491,6 +522,9 @@ h1 {
   font-size: 4.2rem;
   line-height: 5rem;
   max-width: 329px;
+}
+.reviews__line {
+  margin-top: 26px;
 }
 .reviews__description {
   margin-top: 33px;
@@ -560,6 +594,10 @@ h1 {
 }
 .articles__text {
   margin: 0 auto;
+}
+.articles__line {
+  margin: 0 auto;
+  margin-top: 26px;
 }
 .articles__list {
   display: flex;
@@ -638,6 +676,10 @@ h1 {
 .subscribe__title {
   font-size: 4.2rem;
   line-height: 5rem;
+}
+.subscribe__line {
+  margin: 0 auto;
+  margin-top: 26px;
 }
 .subscribe__desc {
   font-size: 1.8rem;
@@ -888,41 +930,16 @@ body {
 }
 
 .line {
+  height: 3px;
+  width: 50px;
+  background: #FFCA42;
+}
+.line_blue {
+  background: #1B3764;
+}
+.line_tiny {
   height: 2px;
   width: 35px;
-  background: #FFCA42;
-  margin-right: 14px;
-}
-.line-bold {
-  height: 3px;
-  width: 50px;
-  margin: 0 auto;
-  margin-top: 25px;
-  margin-bottom: 70px;
-}
-.line-author {
-  height: 3px;
-  width: 50px;
-  margin-top: 30px;
-  margin-bottom: 36px;
-}
-.line-get {
-  height: 3px;
-  width: 50px;
-  margin-top: 24px;
-}
-.line-reviews {
-  height: 3px;
-  width: 50px;
-  margin-top: 26px;
-}
-.line-articles {
-  background: #FFCA42;
-  margin: 0 auto;
-  margin-top: 26px;
-}
-.line-blue {
-  background: #1B3764;
 }
 
 h2, h3, h4, h5, h6 {
