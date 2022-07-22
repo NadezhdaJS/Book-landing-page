@@ -2,21 +2,19 @@
     display: flex;
     flex-direction: column;
     background: $color-background-light;
-    height: 1045px;
     align-items: center;
     justify-content: center;
+    padding: 130px 0 120px;
 
     &__text {
         margin: 0 auto;
     }
 
-    &__title {
-       
-    }
+    &__title {}
 
     &__line {
         margin: 0 auto;
-		margin-top: 26px;
+        margin-top: 26px;
     }
 
     &__list {
@@ -27,12 +25,10 @@
     &__post {
         display: flex;
         flex-direction: column;
-        
-    }
-
-    &__img {
 
     }
+
+    &__img {}
 
     &__text-box {
         padding: 25px 30px 30px 30px;
@@ -54,7 +50,7 @@
             &:hover {
                 color: #021029;
             }
-            
+
         }
     }
 
