@@ -1,6 +1,6 @@
 .learn {
     display: flex;
-    height: 1095px;
+    padding: 20px 0 140px;
     justify-content: center;
 
     &__line {
@@ -16,7 +16,7 @@
     &__cards {
         display: flex;
         flex-direction: column;
-        max-width: 636px;
+        max-width: 51%;
         margin-right: 59px;
     }
 
@@ -52,5 +52,5 @@
     background: $color-secondary;
     text-align: center;
     padding: 8px;
-    
+
 }

@@ -419,7 +419,7 @@ h1 {
 
 .learn {
   display: flex;
-  height: 1095px;
+  padding: 20px 0 140px;
   justify-content: center;
 }
 .learn__line {
@@ -433,7 +433,7 @@ h1 {
 .learn__cards {
   display: flex;
   flex-direction: column;
-  max-width: 636px;
+  max-width: 51%;
   margin-right: 59px;
 }
 .learn__card {
