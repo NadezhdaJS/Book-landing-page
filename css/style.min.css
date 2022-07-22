@@ -662,19 +662,19 @@ h1 {
 
 .subscribe {
   display: flex;
-  height: 729px;
   align-items: center;
   text-align: center;
+  padding: 120px 0;
 }
 .subscribe__body {
   background-color: #FFCA42;
-  height: 489px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1300px;
   display: flex;
   flex-direction: column;
+  padding: 100px 0 115px;
 }
 .subscribe__title {
   font-size: 4.2rem;
