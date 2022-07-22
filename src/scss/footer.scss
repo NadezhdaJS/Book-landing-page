@@ -1,15 +1,12 @@
 .footer {
     background-color: $color-primary;
     display: flex;
-    height: 350px;
     padding: 92px 0;
-   
-    
 
     &__social-media {
         display: flex;
         flex-direction: column;
-        
+
     }
 
     &__social-media-icons {
@@ -20,10 +17,10 @@
     &__social-media-links {
         margin-right: 10px;
         -webkit-transition: -webkit-transform 1.3s ease-in-out;
-          transition:         transform 1.3s ease-in-out;
+        transition: transform 1.3s ease-in-out;
 
         &:hover {
-            -webkit-transform: rotate(360deg); 
+            -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
         }
     }
@@ -50,19 +47,17 @@
 
     &__list-item {
         display: flex;
-        
-       
-    }
 
-    &__marker {
 
     }
+
+    &__marker {}
 
     &__markers {
         display: flex;
         margin-top: 14px;
         margin-right: 11px;
-        
+
     }
 
     &__link {
