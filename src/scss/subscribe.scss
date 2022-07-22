@@ -1,19 +1,18 @@
 .subscribe {
     display: flex;
-    height: 729px;
     align-items: center;
     text-align: center;
-    
-    
+    padding: 120px 0;
+
     &__body {
         background-color: $color-secondary;
-        height: 489px;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 1300px;
         display: flex;
         flex-direction: column;
+        padding: 100px 0 115px;
     }
 
     &__title {
@@ -39,7 +38,6 @@
 
 .subscribe-form {
     margin-top: 53px;
-
 
     &__btn {
         height: 68.5px;
