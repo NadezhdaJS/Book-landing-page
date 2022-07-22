@@ -467,9 +467,9 @@ h1 {
 
 .chapters {
   background-color: #F4F8FF;
-  height: 1154px;
   display: flex;
   align-items: center;
+  padding: 10px 0 130px;
 }
 .chapters__line {
   margin: 0 auto;
