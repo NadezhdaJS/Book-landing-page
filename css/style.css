@@ -728,7 +728,6 @@ h1 {
 .footer {
   background-color: #1B3764;
   display: flex;
-  height: 350px;
   padding: 92px 0;
 }
 .footer__social-media {
