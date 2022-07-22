@@ -513,7 +513,7 @@ h1 {
 
 .reviews {
   display: flex;
-  height: 884px;
+  padding: 120px 0 130px;
   align-items: center;
 }
 .reviews__text {
