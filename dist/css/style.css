@@ -13,7 +13,11 @@
   font-weight: 400;
   font-style: normal;
 }
-.stats-item, h2, h3, h4, h5, h6, .button-order-today, .footer__contact-type, .articles__readmore a, .articles__name, .reviews__subheading, .reviews__name, .chapters__title, .learn__card, .company-card__name, .qr__name, .about-the-author__number, h1, .main-book__free-demo-link, .main-book__text-subtitle {
+.stats-item, h2,
+h3,
+h4,
+h5,
+h6, .button-order-today, .footer__contact-type, .articles__readmore a, .articles__name, .reviews__subheading, .reviews__name, .chapters__title, .learn__card, .company-card__name, .qr__name, .about-the-author__number, h1, .main-book__free-demo-link, .main-book__text-subtitle {
   font-family: "Cardo", serif;
 }
 
@@ -115,7 +119,7 @@ select {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 225px;
+  margin-left: 206px;
 }
 .header__menu-list {
   display: flex;
@@ -889,6 +893,10 @@ body {
   flex-direction: column;
 }
 
+.basket {
+  margin-right: 51px;
+}
+
 .button-order-today {
   display: block;
   text-decoration: none;
@@ -944,7 +952,11 @@ body {
   width: 35px;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-style: normal;
   font-weight: 400;
   text-transform: capitalize;

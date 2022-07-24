@@ -20,7 +20,8 @@ html {
 }
 
 body {
-	font-family: 'Inter', serif;;
+	font-family: 'Inter', serif;
+	;
 	font-size: 1.9rem;
 	color: $color-text;
 	font-weight: 400;
@@ -42,7 +43,7 @@ body {
 	&__header {
 		max-width: 1360px;
 	}
-	
+
 }
 
 [class*="__big-content-container"] {
@@ -54,7 +55,7 @@ body {
 }
 
 .logo {
-display: block;	
+	display: block;
 
 }
 
@@ -73,6 +74,10 @@ display: block;
 	flex-direction: column;
 }
 
+.basket {
+	margin-right: 51px;
+}
+
 .button-order-today {
 	display: block;
 	text-decoration: none;
@@ -86,9 +91,9 @@ display: block;
 	line-height: 2.8rem;
 	letter-spacing: 0.57px;
 
-	 &:hover {
+	&:hover {
 		background: rgb(250, 182, 34);
-	 }
+	}
 
 	&-white {
 		background: none;
@@ -109,7 +114,7 @@ display: block;
 
 		&:hover {
 			color: $color-primary;
-		 }
+		}
 	}
 
 	&-trial {
@@ -126,7 +131,7 @@ display: block;
 .line {
 	height: 3px;
 	width: 50px;
-	background:$color-secondary;
+	background: $color-secondary;
 
 	&_blue {
 		background: $color-primary;
@@ -134,12 +139,16 @@ display: block;
 
 	&_tiny {
 		height: 2px;
-    	width: 35px;
+		width: 35px;
 	}
 }
 
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
 	@extend %font-second;
 	font-style: normal;
 	font-weight: 400;
@@ -168,31 +177,31 @@ h2, h3, h4, h5, h6 {
 }
 
 .stats {
-    list-style-type: disc;
+	list-style-type: disc;
 }
 
 
 .stats-item {
-    display: inline-block;
-    padding-right: 60px;
-    @extend %font-second;
-    font-style: normal;
-    font-size: 2.4rem;
-    line-height: 2.9rem;
-    letter-spacing: 0.48px;
-    color: #FFFFFF;
-    list-style-type: disc;
+	display: inline-block;
+	padding-right: 60px;
+	@extend %font-second;
+	font-style: normal;
+	font-size: 2.4rem;
+	line-height: 2.9rem;
+	letter-spacing: 0.48px;
+	color: #FFFFFF;
+	list-style-type: disc;
 
-    &::before {
-        content: '\25CF';
-        color: $color-secondary;
+	&::before {
+		content: '\25CF';
+		color: $color-secondary;
 
-    }
+	}
 
-    &-blue {
-        color: $color-primary;
-        margin-top: 14px;
-    }
+	&-blue {
+		color: $color-primary;
+		margin-top: 14px;
+	}
 
 	&-chapters {
 		color: $color-primary;
@@ -210,6 +219,7 @@ h2, h3, h4, h5, h6 {
 span.blue {
 	color: $color-primary;
 }
+
 p {
 	margin: 0 auto;
 }
