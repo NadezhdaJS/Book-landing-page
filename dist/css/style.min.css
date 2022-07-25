@@ -119,7 +119,7 @@ select {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 206px;
+  padding-left: 206px;
 }
 .header__menu-list {
   display: flex;
@@ -152,6 +152,7 @@ select {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-right: 75px;
 }
 .main-book__text-welcome {
   display: flex;
