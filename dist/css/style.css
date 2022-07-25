@@ -100,6 +100,7 @@ select {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 100%;
 }
 .header__social-media-icons {
   display: flex;
@@ -116,10 +117,7 @@ select {
   transform: rotate(360deg);
 }
 .header__menu {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 206px;
+  margin-left: auto;
 }
 .header__menu-list {
   display: flex;
@@ -865,6 +863,7 @@ body {
 }
 .wrapper__header {
   max-width: 1360px;
+  width: 100%;
 }
 
 [class*=__big-content-container] {
