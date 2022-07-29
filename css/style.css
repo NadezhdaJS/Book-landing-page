@@ -219,6 +219,10 @@ select {
   font-size: 2rem;
   transition: 0.3s;
 }
+.big-book-cover {
+  display: flex;
+}
+
 h1 {
   color: #fff;
   font-size: 6.4rem;
@@ -883,11 +887,28 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
+  overflow: hidden;
 }
 .wrapper__header {
   max-width: 1360px;
   width: 100%;
   align-items: center;
+}
+
+@media (max-width: 320px) {
+  .main-book .wrapper {
+    flex-direction: column;
+  }
+}
+@media (max-width: 414px) {
+  .main-book .wrapper {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1024px) {
+  .main-book .wrapper {
+    flex-direction: column-reverse;
+  }
 }
 
 [class*=__big-content-container] {
