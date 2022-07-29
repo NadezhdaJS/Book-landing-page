@@ -69,7 +69,9 @@
     &__stats {}
 }
 
-.big-book-cover {}
+.big-book-cover {
+    display: flex;
+}
 
 h1 {
     color: #fff;

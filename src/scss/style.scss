@@ -40,13 +40,34 @@ body {
 	margin: 0 auto;
 	padding: 0 15px;
 	display: flex;
+	overflow: hidden;
 
 	&__header {
 		max-width: 1360px;
 		width: 100%;
 		align-items: center;
+
 	}
 
+
+
+}
+
+.main-book .wrapper {
+
+	//overflow-x: hidden;
+
+	@include media-mobile-small {
+		flex-direction: column;
+	}
+
+	@include media-mobile-big {
+		flex-direction: column;
+	}
+
+	@include media-tablet {
+		flex-direction: column-reverse;
+	}
 }
 
 [class*="__big-content-container"] {
@@ -88,6 +109,8 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+
+
 
 .basket {
 	margin-right: 51px;
