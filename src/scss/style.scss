@@ -44,6 +44,7 @@ body {
 	&__header {
 		max-width: 1360px;
 		width: 100%;
+		align-items: center;
 	}
 
 }
@@ -57,8 +58,20 @@ body {
 }
 
 .logo {
-	display: block;
+	display: flex;
+	align-items: center;
 
+	@include media-mobile-small {
+		margin: auto;
+	}
+
+	@include media-mobile-big {
+		margin: auto;
+	}
+
+	@include media-tablet {
+		margin: auto;
+	}
 }
 
 .flex {
@@ -92,6 +105,7 @@ body {
 	font-size: 1.9rem;
 	line-height: 2.8rem;
 	letter-spacing: 0.57px;
+
 
 	&:hover {
 		background: rgb(250, 182, 34);
@@ -142,6 +156,20 @@ body {
 	&_tiny {
 		height: 2px;
 		width: 35px;
+	}
+}
+
+header .button-order-today {
+	@include media-mobile-small {
+		display: none;
+	}
+
+	@include media-mobile-big {
+		display: none;
+	}
+
+	@include media-tablet {
+		display: none;
 	}
 }
 

@@ -5,12 +5,28 @@
     align-items: center;
     padding: 20px 0;
 
+    &__btn {
+        width: 222px;
+    }
+
 
     &__social-media {
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
+
+        @include media-mobile-small {
+            display: none;
+        }
+
+        @include media-mobile-big {
+            display: none;
+        }
+
+        @include media-tablet {
+            display: none;
+        }
 
         &-icons {
             display: flex;
@@ -33,6 +49,10 @@
 
     &__menu {
         margin-left: auto;
+
+        @include media-mobile-small {
+            display: none;
+        }
 
         &-list {
             display: flex;
