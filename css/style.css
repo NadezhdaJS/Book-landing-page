@@ -69,6 +69,21 @@ img {
   max-width: 100%;
   display: block;
 }
+@media (max-width: 320px) {
+  img {
+    height: auto !important;
+  }
+}
+@media (max-width: 414px) {
+  img {
+    height: auto !important;
+  }
+}
+@media (max-width: 1024px) {
+  img {
+    height: auto !important;
+  }
+}
 
 article > * + * {
   margin-top: 1em;
