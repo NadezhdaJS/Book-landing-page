@@ -5,12 +5,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
 
     &__photo {
         display: flex;
         margin-right: 150px;
-        
+
+        @include media-mobile-small {
+            margin: 0 auto 30px;
+        }
     }
 
     &__description {
@@ -26,7 +29,7 @@
 
     &__line {
         margin-top: 30px;
-		margin-bottom: 36px;
+        margin-bottom: 36px;
     }
 
     &__text {
@@ -34,14 +37,17 @@
         line-height: 3.4rem;
     }
 
-    &__data{   
+    &__data {
         display: flex;
         justify-content: space-between;
         margin-top: 39px;
+
+        @include media-mobile-small {
+            flex-wrap: wrap;
+        }
     }
 
-    &__category {
-    }
+    &__category {}
 
     &__number {
         color: $color-primary;
@@ -69,6 +75,12 @@
     margin-top: 55px;
     display: flex;
     align-items: center;
+
+    @include media-mobile-small {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
 
     &__code {
         margin-left: 20px;

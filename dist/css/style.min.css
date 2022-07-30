@@ -282,12 +282,14 @@ h1 {
 .book-cards {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 150px;
 }
 
 .book-card {
   display: flex;
+  flex-wrap: wrap;
 }
 .book-card__text {
   max-width: 287px;
@@ -331,6 +333,11 @@ h1 {
   display: flex;
   margin-right: 150px;
 }
+@media (max-width: 320px) {
+  .about-the-author__photo {
+    margin: 0 auto 30px;
+  }
+}
 .about-the-author__description {
   display: flex;
   flex-direction: column;
@@ -352,6 +359,11 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-top: 39px;
+}
+@media (max-width: 320px) {
+  .about-the-author__data {
+    flex-wrap: wrap;
+  }
 }
 .about-the-author__number {
   color: #1B3764;
@@ -375,6 +387,13 @@ h1 {
   margin-top: 55px;
   display: flex;
   align-items: center;
+}
+@media (max-width: 320px) {
+  .qr {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
 }
 .qr__code {
   margin-left: 20px;
@@ -414,6 +433,7 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   padding-top: 40px;
+  flex-wrap: wrap;
 }
 
 .company-card {
@@ -448,6 +468,16 @@ h1 {
   flex-direction: column;
   justify-content: center;
 }
+@media (max-width: 320px) {
+  .get-book__text {
+    order: 2;
+  }
+}
+@media (max-width: 320px) {
+  .get-book__image {
+    order: 1;
+  }
+}
 .get-book__title {
   color: #fff;
   font-size: 4.5rem;
@@ -460,6 +490,18 @@ h1 {
   max-width: 520px;
   margin-right: 201px;
   margin-top: 30px;
+}
+@media (max-width: 320px) {
+  .get-book__desc {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .get-book .wrapper {
+    flex-wrap: wrap;
+  }
 }
 
 .learn {
@@ -932,6 +974,7 @@ body {
   width: 100%;
   padding: 0 15px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .logo {
