@@ -45,9 +45,21 @@ a:not([class]) {
 img {
   max-width: 100%;
   display: block;
+
+  @include media-mobile-small {
+    height: auto !important;
+  }
+
+  @include media-mobile-big {
+    height: auto !important;
+  }
+
+  @include media-tablet {
+    height: auto !important;
+  }
 }
 
-article > * + * {
+article>*+* {
   margin-top: 1em;
 }
 
